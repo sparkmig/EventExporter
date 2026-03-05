@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Text.Json;
 using System.Text.Json.Serialization;
-//use this enpoint to get the json file: https://dmdev.crm4.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='annotation')/Attributes?$select=LogicalName,SchemaName,AttributeType,AttributeTypeName
+//use this enpoint to get the json file: https://---.crm4.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='annotation')/Attributes?$select=LogicalName,SchemaName,AttributeType,AttributeTypeName
 //the files end up in the same folder as the executable, so you can just run the program and it will read the json file and output the cs file in the same folder
 
 string fileName = "msevtmgt_event";
