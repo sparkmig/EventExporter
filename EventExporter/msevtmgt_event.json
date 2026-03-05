@@ -1,0 +1,4509 @@
+{
+  "@odata.context": "https://dmdev.crm4.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('msevtmgt_event')/Attributes(LogicalName,SchemaName,AttributeType,AttributeTypeName)",
+  "value": [
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "bd9b5853-8b5f-471e-b919-12efb1d10b25",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_cancellationrequiresapproval",
+      "SchemaName": "amp_CancellationRequiresApproval",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "6341e16f-5ace-4b96-b7bf-ad1810be5f12",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_cancellationrequiresapprovalname",
+      "SchemaName": "amp_cancellationrequiresapprovalName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "303ded8c-b8b1-4f47-b93f-0e186959c183",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_carriercode",
+      "SchemaName": "amp_Carriercode",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f98d1f17-6d1c-4fc3-8831-7fcfda617f54",
+      "AttributeType": "String",
+      "LogicalName": "amp_carriercodename",
+      "SchemaName": "amp_CarriercodeName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "d27f0e1c-b058-460e-ae67-d502740b5321",
+      "AttributeType": "Picklist",
+      "LogicalName": "amp_countryregion",
+      "SchemaName": "amp_CountryRegion",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "9a7440f7-ada8-4977-8795-99dd8b67e8ba",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_countryregionname",
+      "SchemaName": "amp_countryregionName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "ee15af4a-dc96-4cfc-af9b-d8b69abd1d91",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_department",
+      "SchemaName": "amp_Department",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e71a62f3-fb74-4fe1-bdeb-b71493eb32d3",
+      "AttributeType": "String",
+      "LogicalName": "amp_departmentname",
+      "SchemaName": "amp_DepartmentName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e88e364a-1981-46aa-affe-4480b698a8bb",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_deregistrationdate",
+      "SchemaName": "amp_DeregistrationDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "09014f52-6b36-4ade-83d3-1f056b20e465",
+      "AttributeType": "String",
+      "LogicalName": "amp_dmdkurl",
+      "SchemaName": "amp_DmDkUrl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "4df53228-d3b5-4317-9b4d-63fcc65e333d",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailautomaticconfirmation",
+      "SchemaName": "amp_EmailAutomaticConfirmation",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "4758c04e-a029-4254-97db-783cc8b957b6",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailautomaticconfirmationname",
+      "SchemaName": "amp_emailautomaticconfirmationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "b39c3d0a-6805-49bf-8a75-4e9b553c8ef6",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailautomaticconfirmationtemplate",
+      "SchemaName": "amp_EmailAutomaticConfirmationTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "c6ab1ab4-71ca-4965-96b5-f3ed55771525",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailautomaticconfirmationtemplatename",
+      "SchemaName": "amp_EmailAutomaticConfirmationTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "9938caaa-cd23-4f68-829e-fdb03765ed1a",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailautomaticconfirmationtext",
+      "SchemaName": "amp_EmailAutomaticConfirmationText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b54ff397-ed74-4e45-bedc-dc51e1fff69e",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailcancelconfirmed",
+      "SchemaName": "amp_EmailCancelConfirmed",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "2d1f9542-7d6f-461f-abc9-3a0162735af0",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailcancelconfirmedname",
+      "SchemaName": "amp_emailcancelconfirmedName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "da12fe29-b82d-41ef-b0d2-3c7199d09fd7",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailcancelconfirmedtemplate",
+      "SchemaName": "amp_EmailCancelConfirmedTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "54bb500a-4ac5-4d78-9fc3-4d8725cfb651",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailcancelconfirmedtemplatename",
+      "SchemaName": "amp_EmailCancelConfirmedTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "cbf13afa-0804-4e72-8f0b-72585a580a9a",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailcancelconfirmedtext",
+      "SchemaName": "amp_EmailCancelConfirmedText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "4ae4760f-5986-4ab8-93df-2e3cf6f801e8",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailcancellationtemplate",
+      "SchemaName": "amp_EmailCancellationTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "7d753bc5-946a-4cbf-b453-5d1287cd5f0a",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailcancellationtemplatename",
+      "SchemaName": "amp_EmailCancellationTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "1cb7a7c0-120a-489e-9830-d09f62dedf8f",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailcancellationtext",
+      "SchemaName": "amp_EmailCancellationText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "7644f667-e2a2-47db-9c1f-c61222caca7f",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailfinalconfirmation",
+      "SchemaName": "amp_EmailFinalConfirmation",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "cd1e95a7-40b2-420a-9b94-369b4221af3a",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_emailfinalconfirmationdate",
+      "SchemaName": "amp_EmailFinalConfirmationDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "MetadataId": "b2c57ba9-5444-4323-914d-6dd17b859a77",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailfinalconfirmationname",
+      "SchemaName": "amp_emailfinalconfirmationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "1393845f-f758-4e2a-ad5a-e62970ba25b0",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailfinalconfirmationsent",
+      "SchemaName": "amp_EmailFinalConfirmationSent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "eee76c73-89c5-4b5b-8da5-44cd977f7069",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailfinalconfirmationsentname",
+      "SchemaName": "amp_emailfinalconfirmationsentName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "9fd0e6f0-c191-4460-b2de-9e09965c4207",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailfinalconfirmationtemplate",
+      "SchemaName": "amp_EmailFinalConfirmationTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "aebed7e5-027e-4dbd-8eb3-316dfba8cf72",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailfinalconfirmationtemplatename",
+      "SchemaName": "amp_EmailFinalConfirmationTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "5dc348f4-7a64-4333-b573-7511315e7a63",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailfinalconfirmationtext",
+      "SchemaName": "amp_EmailFinalConfirmationText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "3d12c49c-4a98-4edc-9b4a-55953913b41c",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailinformation",
+      "SchemaName": "amp_EmailInformation",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "239d1ab6-32ba-403a-968b-77386dc3d5eb",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailinformationname",
+      "SchemaName": "amp_emailinformationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "f4b18eba-ffb6-4b3b-8c92-4fb203449190",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailinformationtemplate",
+      "SchemaName": "amp_EmailInformationTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "0927ac57-39db-49f2-9fa0-5014790cf893",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailinformationtemplatename",
+      "SchemaName": "amp_EmailInformationTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "c34969b1-21d6-4ebe-8cb5-d8083de521ee",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailinformationtext",
+      "SchemaName": "amp_EmailInformationText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "aa52419d-e108-4287-8ff4-2bb78f7cd1e3",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailmaterial",
+      "SchemaName": "amp_EmailMaterial",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "bd1aaac3-bae0-44a4-9762-c243c946184e",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_emailmaterialdate",
+      "SchemaName": "amp_EmailMaterialDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "MetadataId": "60afba51-4790-49f3-9733-90dd2f12f39e",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailmaterialname",
+      "SchemaName": "amp_emailmaterialName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "37db2ccd-ade1-4e43-975d-0c45c3f7e870",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailmaterialtemplate",
+      "SchemaName": "amp_EmailMaterialTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "83d06a89-182e-41a7-bcd2-dee0152dc5d9",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailmaterialtemplatename",
+      "SchemaName": "amp_EmailMaterialTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "a73d8127-d21e-4a34-9cea-37d92d59d639",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailmaterialtext",
+      "SchemaName": "amp_EmailMaterialText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "24ec9705-aa24-4bdb-9a34-3398f0f5a765",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailreminder1",
+      "SchemaName": "amp_EmailReminder1",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "a6649434-f81f-4200-af52-f5eb54e1745b",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_emailreminder1date",
+      "SchemaName": "amp_EmailReminder1Date",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "MetadataId": "b37fff3e-15bd-4e97-b03d-81cfb885dc9c",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailreminder1name",
+      "SchemaName": "amp_emailreminder1Name",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "0f77c7f3-0d14-4e1e-8b9d-9e6c4398405a",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailreminder1sent",
+      "SchemaName": "amp_EmailReminder1Sent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "a5cebce7-135b-46c3-adc4-06d1dad82196",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailreminder1sentname",
+      "SchemaName": "amp_emailreminder1sentName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "da91f3d7-326a-42e7-9ca9-a08ad3de4d3c",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailreminder1template",
+      "SchemaName": "amp_EmailReminder1Template",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "48e7a4ea-a6d0-4ced-9030-444a9cd504f1",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailreminder1templatename",
+      "SchemaName": "amp_EmailReminder1TemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "bdc3e9ea-5c3a-4979-a81f-360d852ca346",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailreminder1text",
+      "SchemaName": "amp_EmailReminder1Text",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "094ed167-3f0b-452d-af4a-499baaa2af60",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailreminder2",
+      "SchemaName": "amp_EmailReminder2",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "0ce2dd80-a334-417a-9eca-aaa4ba3eb27b",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_emailreminder2date",
+      "SchemaName": "amp_EmailReminder2Date",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "MetadataId": "ec2f572f-5326-4917-b868-974ac9c81295",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailreminder2name",
+      "SchemaName": "amp_emailreminder2Name",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "298a64ff-3cb7-4e90-bd96-ee2e294c1c13",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailreminder2sent",
+      "SchemaName": "amp_EmailReminder2Sent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "8870e523-42c1-41c6-8020-48f7135a2c26",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailreminder2sentname",
+      "SchemaName": "amp_emailreminder2sentName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "b2cabbe2-2398-49eb-9a4b-43be2e7db8cb",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailreminder2template",
+      "SchemaName": "amp_EmailReminder2Template",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "331e0073-a973-4924-a261-af9e626c7728",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailreminder2templatename",
+      "SchemaName": "amp_EmailReminder2TemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "9acd9c99-20ed-4ab9-bdc2-732d9be4227b",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailreminder2text",
+      "SchemaName": "amp_EmailReminder2Text",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "1f337e12-d020-4ec5-a757-71fd675b2081",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_emailwaitlistconfirmed",
+      "SchemaName": "amp_EmailWaitlistConfirmed",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "18e917ec-1124-4c58-bde9-cfb6744858a4",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_emailwaitlistconfirmedname",
+      "SchemaName": "amp_emailwaitlistconfirmedName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "b3f397a2-aded-4570-b2a7-476bb4793504",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_emailwaitlistconfirmedtemplate",
+      "SchemaName": "amp_EmailWaitlistConfirmedTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "69bd105e-62cc-466c-a080-b6de4867b46c",
+      "AttributeType": "String",
+      "LogicalName": "amp_emailwaitlistconfirmedtemplatename",
+      "SchemaName": "amp_EmailWaitlistConfirmedTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "ad6f0a32-2fe7-46be-b403-14368faaa0ca",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_emailwaitlistconfirmedtext",
+      "SchemaName": "amp_EmailWaitlistConfirmedText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MultiSelectPicklistAttributeMetadata",
+      "MetadataId": "20f0ee2b-8275-4794-90bd-ff54547e46b2",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_eventtypesweb",
+      "SchemaName": "amp_EventTypesWeb",
+      "AttributeTypeName": {
+        "Value": "MultiSelectPicklistType"
+      }
+    },
+    {
+      "MetadataId": "9bca0903-d789-4654-9b1b-a48a6453380c",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_eventtypeswebname",
+      "SchemaName": "amp_eventtypeswebName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "d4c3a3f2-fcd2-49af-98c6-2ff57045dad9",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_financeaccount",
+      "SchemaName": "amp_FinanceAccount",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "bb26650e-44ae-431b-bc8c-a2811842381a",
+      "AttributeType": "String",
+      "LogicalName": "amp_financeaccountname",
+      "SchemaName": "amp_FinanceAccountName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "114a7a13-c366-4548-9f01-68ed09ed786d",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_followup",
+      "SchemaName": "amp_Followup",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "318f8a1d-dc23-47fe-9573-bb3b5ae194eb",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_followupnote",
+      "SchemaName": "amp_followupnote",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "afbb39ea-a3cf-4ea6-97ed-50b67a0d937e",
+      "AttributeType": "String",
+      "LogicalName": "amp_host",
+      "SchemaName": "amp_Host",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "2129d8a2-c3e4-40d1-ab5a-ac031c447f39",
+      "AttributeType": "String",
+      "LogicalName": "amp_importid",
+      "SchemaName": "amp_ImportID",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "c042f74a-de4b-4eba-ae82-80f571f331ac",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_invoicetext",
+      "SchemaName": "amp_InvoiceText",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "9f908f50-4801-47bc-b645-45f62d2b9c30",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_isonlineevent",
+      "SchemaName": "amp_IsOnlineEvent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "b2b084d9-a738-4d7b-a9db-6edf76faacff",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_isonlineeventname",
+      "SchemaName": "amp_isonlineeventName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "fa5620a0-d6ed-4273-893a-18ffa9293af9",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_labeltemplate",
+      "SchemaName": "amp_LabelTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "9bd35cbe-dd79-4648-a839-635ef474edd2",
+      "AttributeType": "String",
+      "LogicalName": "amp_labeltemplatename",
+      "SchemaName": "amp_LabelTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "d1759f30-2de7-490d-9cc9-176da0a78b8b",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_material",
+      "SchemaName": "amp_Material",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "65a55c62-20c8-4e5b-a2d1-0744e45279bb",
+      "AttributeType": "String",
+      "LogicalName": "amp_materialname",
+      "SchemaName": "amp_MaterialName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b9a5f60e-1bef-4257-baf6-c6568df97b32",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_materialonline",
+      "SchemaName": "amp_MaterialOnline",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "dadd5a11-42e2-4e90-8862-f9b893da55f3",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_materialonlinename",
+      "SchemaName": "amp_materialonlineName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "9f899683-c348-41ed-aeb3-b803a5d8f72b",
+      "AttributeType": "Integer",
+      "LogicalName": "amp_minimumparticipants",
+      "SchemaName": "amp_MinimumParticipants",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "d5dd4977-3406-46e8-86ff-030fb739b6ab",
+      "AttributeType": "Money",
+      "LogicalName": "amp_noshowamount",
+      "SchemaName": "amp_NoshowAmount",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "fe8453b1-bc0c-4237-8a5c-7fc20e86fce4",
+      "AttributeType": "Money",
+      "LogicalName": "amp_noshowamount_base",
+      "SchemaName": "amp_noshowamount_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "9c26cd4d-e708-4230-bb88-38637b61bd93",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_noshowpayment",
+      "SchemaName": "amp_NoShowPayment",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "2123f091-b9db-4063-ba98-03c303c46e0c",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_noshowpaymentname",
+      "SchemaName": "amp_noshowpaymentName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "b5d34551-7128-4c24-8db6-3d86cc0d6f77",
+      "AttributeType": "String",
+      "LogicalName": "amp_number",
+      "SchemaName": "amp_Number",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "981f0375-ad01-4300-b7a8-c008a7029f65",
+      "AttributeType": "String",
+      "LogicalName": "amp_orderedby",
+      "SchemaName": "amp_OrderedBy",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "d6d924da-7349-40ff-9c65-66a70d6210e6",
+      "AttributeType": "Picklist",
+      "LogicalName": "amp_orderedbyselect",
+      "SchemaName": "amp_orderedbyselect",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "9a124f91-8c31-4de6-8e78-cd5230ae88c0",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_orderedbyselectname",
+      "SchemaName": "amp_orderedbyselectName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "cbea9037-c502-41d6-9984-6f8f72f77d5a",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_participationtemplate",
+      "SchemaName": "amp_ParticipationTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "75122d86-1450-46de-ae8b-a4e165fb8632",
+      "AttributeType": "String",
+      "LogicalName": "amp_participationtemplatename",
+      "SchemaName": "amp_ParticipationTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "0878d9e9-9f2d-4a85-b1f9-dfa965dcb3ac",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_paymentterm",
+      "SchemaName": "amp_paymentTerm",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "988f8e63-dd44-475d-a88f-f16afbb9ccaa",
+      "AttributeType": "String",
+      "LogicalName": "amp_paymenttermname",
+      "SchemaName": "amp_paymentTermName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "b02b93bb-e1d8-4955-8735-e1c3ec57c0e8",
+      "AttributeType": "Picklist",
+      "LogicalName": "amp_paymenttermoption",
+      "SchemaName": "amp_PaymentTermOption",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "165f747a-2afb-42ad-b8a2-8dbcb9b89e44",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_paymenttermoptionname",
+      "SchemaName": "amp_paymenttermoptionName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "5ee79591-5fc1-4aa6-aa79-6d4b25e3c33f",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_practicaldetailsverified",
+      "SchemaName": "amp_PracticalDetailsVerified",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "82ef07a3-2fcf-4fda-9d1a-ad535c2ffb2b",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_practicaldetailsverifiedname",
+      "SchemaName": "amp_practicaldetailsverifiedName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "a6e09ef0-93b8-4df1-ae7a-f11da92f24b7",
+      "AttributeType": "Memo",
+      "LogicalName": "amp_praticalinformation",
+      "SchemaName": "amp_PraticalInformation",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "67a6908a-c208-4c90-b8b1-0f43b007a95d",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricecongressparticipant",
+      "SchemaName": "amp_PriceCongressParticipant",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "79338335-833e-4068-ad41-2536580e442f",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricecongressparticipant_base",
+      "SchemaName": "amp_pricecongressparticipant_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "78dfe3e1-1df4-42dd-b8b6-127da71cc42a",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricefreelance",
+      "SchemaName": "amp_PriceFreelance",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "10193d81-c239-413e-8ca7-c0d898fe66de",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricefreelance_base",
+      "SchemaName": "amp_pricefreelance_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "3e642c44-c9e5-48c2-9dd3-cc677407288f",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricegraduate",
+      "SchemaName": "amp_PriceGraduate",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "7da0fcc3-d965-4478-8769-a71e4e10b352",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricegraduate_base",
+      "SchemaName": "amp_pricegraduate_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "878ea107-24fe-4bbc-b8e7-9d0384e328f6",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceguest",
+      "SchemaName": "amp_PriceGuest",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "ef0efa8f-971d-4ea4-9116-b28540a253c4",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceguest_base",
+      "SchemaName": "amp_priceguest_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "5686e9ac-8985-49df-bc94-2937ac74c6b4",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceleaders",
+      "SchemaName": "amp_PriceLeaders",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "65cecb12-89ad-4559-8894-da63b74eeaf7",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceleaders_base",
+      "SchemaName": "amp_priceleaders_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "c71a8013-2eeb-4da5-b01e-db98c7c4bc2d",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricemember",
+      "SchemaName": "amp_PriceMember",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "8326e623-45ed-49cb-8897-e163f8be65be",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricemember_base",
+      "SchemaName": "amp_pricemember_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "37aa97bc-0dd5-46f5-b2c2-39491e26a2df",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricenonmember",
+      "SchemaName": "amp_PriceNonMember",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "ab85fdd2-ccb2-4d1d-9431-8dd09d4772a7",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricenonmember_base",
+      "SchemaName": "amp_pricenonmember_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "d1240507-4f5d-4154-a7c6-e4f6520a48ba",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceparentalleave",
+      "SchemaName": "amp_PriceParentalLeave",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "5cc0f11e-2001-4a54-8fea-209ccd3a2004",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceparentalleave_base",
+      "SchemaName": "amp_priceparentalleave_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "f7f2d796-61b8-4187-ab69-e165cedf6fa7",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceretired",
+      "SchemaName": "amp_PriceRetired",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "2dac7fe9-0fe8-4454-b900-68f9a7c60b6a",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceretired_base",
+      "SchemaName": "amp_priceretired_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "04da1186-3f1c-4310-b5dc-75c7b34449f3",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricestudent",
+      "SchemaName": "amp_PriceStudent",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "2985140c-5b90-4fb7-b70c-e89fad9a7181",
+      "AttributeType": "Money",
+      "LogicalName": "amp_pricestudent_base",
+      "SchemaName": "amp_pricestudent_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "a6fe2834-d972-49dc-b3d4-ba194d16f895",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceunemployed",
+      "SchemaName": "amp_PriceUnemployed",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "2f25edf9-c19f-46a5-b8c5-a150217e21bc",
+      "AttributeType": "Money",
+      "LogicalName": "amp_priceunemployed_base",
+      "SchemaName": "amp_priceunemployed_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a55a5a25-9404-40d0-ba69-c92277a1040f",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_purpose",
+      "SchemaName": "amp_Purpose",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "1647d4af-acc2-49dc-bd7f-86d64b7fc149",
+      "AttributeType": "String",
+      "LogicalName": "amp_purposename",
+      "SchemaName": "amp_PurposeName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "79a7e803-6bad-46f1-92bb-9eb37e7c416c",
+      "AttributeType": "DateTime",
+      "LogicalName": "amp_reminderdate",
+      "SchemaName": "amp_ReminderDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "6a436208-d301-4437-ad2f-0cde89667b0f",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_repsonsibleconsultant",
+      "SchemaName": "amp_RepsonsibleConsultant",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "08133091-fb0e-42cc-a764-b9da06d7c671",
+      "AttributeType": "String",
+      "LogicalName": "amp_repsonsibleconsultantname",
+      "SchemaName": "amp_RepsonsibleConsultantName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "4d199f06-5f16-4049-8b7d-d49d499570ed",
+      "AttributeType": "String",
+      "LogicalName": "amp_repsonsibleconsultantyominame",
+      "SchemaName": "amp_RepsonsibleConsultantYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "2e34053d-f366-42c3-8b23-92de6e1c5a5c",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_submissionrequiresapproval",
+      "SchemaName": "amp_SubmissionRequiresApproval",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "bcfce2fb-0e02-423c-9561-6a6bc6f086a1",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_submissionrequiresapprovalname",
+      "SchemaName": "amp_submissionrequiresapprovalName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "f9873d3c-5d89-40d6-a8e0-adef36d59293",
+      "AttributeType": "Lookup",
+      "LogicalName": "amp_tablecardtemplate",
+      "SchemaName": "amp_TableCardTemplate",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "761937e3-34ba-4f9e-993b-12ebb52e6f11",
+      "AttributeType": "String",
+      "LogicalName": "amp_tablecardtemplatename",
+      "SchemaName": "amp_TableCardTemplateName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MultiSelectPicklistAttributeMetadata",
+      "MetadataId": "82e38c1f-21a4-4a24-9c46-a4e3b4703526",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroup",
+      "SchemaName": "amp_Targetgroup",
+      "AttributeTypeName": {
+        "Value": "MultiSelectPicklistType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8dd408d7-8841-4f03-8d5d-a59cd27a34dc",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupall",
+      "SchemaName": "amp_targetgroupall",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "dcc1c846-0d41-44c2-aad1-10306eb3640a",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupallname",
+      "SchemaName": "amp_targetgroupallName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "06ebfa10-2f59-4576-a5ec-d13ca3e61eca",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupbio",
+      "SchemaName": "amp_TargetGroupBio",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "3761888d-80c7-4137-adcc-4e969e5479fa",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupbioname",
+      "SchemaName": "amp_targetgroupbioName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "c632bfdb-73fe-4425-8e99-ce81d4c1669a",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupcongressparticipant",
+      "SchemaName": "amp_TargetgroupCongressparticipant",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "d8ab006c-53b8-42df-8541-007dfebe8800",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupcongressparticipantname",
+      "SchemaName": "amp_targetgroupcongressparticipantName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8f939a2b-9a49-4518-8af1-91aeffb27d79",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupdimitend",
+      "SchemaName": "amp_TargetGroupDimitend",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "f9493c59-7ae8-43bc-ba58-6e3cd70da9d7",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupdimitendname",
+      "SchemaName": "amp_targetgroupdimitendName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8b684578-83ee-49a9-ba75-ffe241e64ba3",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupfreelance",
+      "SchemaName": "amp_TargetGroupFreelance",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "6f6c2455-2ed3-46f7-b955-5f22a552b4ca",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupfreelancename",
+      "SchemaName": "amp_targetgroupfreelanceName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b335cb0d-4d45-4b4a-9825-0584ff8080c8",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupleaders",
+      "SchemaName": "amp_TargetGroupLeaders",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "aed4d3b5-7b36-4aa8-adc7-5746eb9899f0",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupleadersname",
+      "SchemaName": "amp_targetgroupleadersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "MetadataId": "60dd8526-a180-4412-8892-7523d6a3246b",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupname",
+      "SchemaName": "amp_targetgroupName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "0cb5b172-f532-4c7e-9107-b79ce79b9310",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupparentalleave",
+      "SchemaName": "amp_TargetGroupParentalLeave",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "c6cacb1b-74bb-4dc0-af81-7bf0f19df81a",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupparentalleavename",
+      "SchemaName": "amp_targetgroupparentalleaveName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "c76b96ee-289c-4913-8501-4ae807ad9611",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgrouprepresentatives",
+      "SchemaName": "amp_TargetgroupRepresentatives",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "f3254abf-4505-465d-89b5-64d6963d1e52",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgrouprepresentativesname",
+      "SchemaName": "amp_targetgrouprepresentativesName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "1be04c4c-bf5b-46b0-ab08-ce315e95f1e7",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupretired",
+      "SchemaName": "amp_TargetGroupRetired",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "ac9310ec-ac75-4067-ac6a-5aa403092f48",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupretiredname",
+      "SchemaName": "amp_targetgroupretiredName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "4df3a479-874a-4131-b3dd-fd02816131e0",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupstudent",
+      "SchemaName": "amp_TargetGroupStudent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "23a90e3a-068b-45a4-abbb-ec40512219a2",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupstudentname",
+      "SchemaName": "amp_targetgroupstudentName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b8639343-9af5-4913-a51c-ccaee1032752",
+      "AttributeType": "Boolean",
+      "LogicalName": "amp_targetgroupunemployed",
+      "SchemaName": "amp_TargetGroupUnemployed",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "3a485887-ae75-49e4-8463-14d75adb7b71",
+      "AttributeType": "Virtual",
+      "LogicalName": "amp_targetgroupunemployedname",
+      "SchemaName": "amp_targetgroupunemployedName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "5acf9764-e6d1-4609-a8bf-fe8b5cf763fc",
+      "AttributeType": "String",
+      "LogicalName": "amp_urldigitalmeeting",
+      "SchemaName": "amp_URLDigitalMeeting",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "1044fc6d-d768-4812-8597-3ec872fed7ab",
+      "AttributeType": "Lookup",
+      "LogicalName": "createdby",
+      "SchemaName": "CreatedBy",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "81157bb9-651e-406b-8212-4553808bdc12",
+      "AttributeType": "String",
+      "LogicalName": "createdbyname",
+      "SchemaName": "CreatedByName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "6cbcd2c7-8b5e-41fa-891d-24022c53f625",
+      "AttributeType": "String",
+      "LogicalName": "createdbyyominame",
+      "SchemaName": "CreatedByYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "1c1272a5-b15e-42e0-b344-9d00631dd7a7",
+      "AttributeType": "DateTime",
+      "LogicalName": "createdon",
+      "SchemaName": "CreatedOn",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "0bdd9ee2-0232-41c4-9217-c9ab0f486f7b",
+      "AttributeType": "Lookup",
+      "LogicalName": "createdonbehalfby",
+      "SchemaName": "CreatedOnBehalfBy",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "44214e7d-8f6b-4ce1-8951-af3b97358bce",
+      "AttributeType": "String",
+      "LogicalName": "createdonbehalfbyname",
+      "SchemaName": "CreatedOnBehalfByName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d948d2c3-9b0b-4589-a119-5a066ac1ae3a",
+      "AttributeType": "String",
+      "LogicalName": "createdonbehalfbyyominame",
+      "SchemaName": "CreatedOnBehalfByYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MultiSelectPicklistAttributeMetadata",
+      "MetadataId": "dd31d7aa-bb95-ee11-be37-000d3adf7675",
+      "AttributeType": "Virtual",
+      "LogicalName": "dm_eventsubject",
+      "SchemaName": "dm_EventSubject",
+      "AttributeTypeName": {
+        "Value": "MultiSelectPicklistType"
+      }
+    },
+    {
+      "MetadataId": "2b838ce6-475a-4930-b74c-3e6611934d5c",
+      "AttributeType": "Virtual",
+      "LogicalName": "dm_eventsubjectname",
+      "SchemaName": "dm_eventsubjectName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.ImageAttributeMetadata",
+      "MetadataId": "891654c3-b5bb-4a88-b111-364b87838386",
+      "AttributeType": "Virtual",
+      "LogicalName": "entityimage",
+      "SchemaName": "EntityImage",
+      "AttributeTypeName": {
+        "Value": "ImageType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BigIntAttributeMetadata",
+      "MetadataId": "86158884-acda-44c4-a3d7-f2f87e9688a4",
+      "AttributeType": "BigInt",
+      "LogicalName": "entityimage_timestamp",
+      "SchemaName": "EntityImage_Timestamp",
+      "AttributeTypeName": {
+        "Value": "BigIntType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "562f27d0-83bd-497f-ab13-7274107f2011",
+      "AttributeType": "String",
+      "LogicalName": "entityimage_url",
+      "SchemaName": "EntityImage_URL",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "MetadataId": "ed6d6a45-94a7-4947-8d3b-b6fd7b62d406",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "entityimageid",
+      "SchemaName": "EntityImageId",
+      "AttributeTypeName": {
+        "Value": "UniqueidentifierType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "e189a3c7-6694-4f73-affc-4183877b6ad9",
+      "AttributeType": "Decimal",
+      "LogicalName": "exchangerate",
+      "SchemaName": "ExchangeRate",
+      "AttributeTypeName": {
+        "Value": "DecimalType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "6f669e0c-fde8-4216-81bd-0fbc05811423",
+      "AttributeType": "Integer",
+      "LogicalName": "importsequencenumber",
+      "SchemaName": "ImportSequenceNumber",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "2f6b81dd-efd3-4f42-b8d3-7515938bf389",
+      "AttributeType": "Lookup",
+      "LogicalName": "modifiedby",
+      "SchemaName": "ModifiedBy",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "2ecd35d8-a3f7-43fa-ace8-7af9a3626248",
+      "AttributeType": "String",
+      "LogicalName": "modifiedbyname",
+      "SchemaName": "ModifiedByName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "64605db2-e1d3-48a0-b70a-708b7adf0d72",
+      "AttributeType": "String",
+      "LogicalName": "modifiedbyyominame",
+      "SchemaName": "ModifiedByYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e2fb382d-2ef5-4c83-b7b0-67030ee071b5",
+      "AttributeType": "DateTime",
+      "LogicalName": "modifiedon",
+      "SchemaName": "ModifiedOn",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "2972b0e1-e83a-464b-9d2b-51c9469512d2",
+      "AttributeType": "Lookup",
+      "LogicalName": "modifiedonbehalfby",
+      "SchemaName": "ModifiedOnBehalfBy",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "0e9b4f41-0ab6-4580-8a00-f859a7a31bf7",
+      "AttributeType": "String",
+      "LogicalName": "modifiedonbehalfbyname",
+      "SchemaName": "ModifiedOnBehalfByName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d39ba863-f24c-42a0-a7c7-af102f6bc5c4",
+      "AttributeType": "String",
+      "LogicalName": "modifiedonbehalfbyyominame",
+      "SchemaName": "ModifiedOnBehalfByYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "bf427fb6-ba0c-4ec6-ab79-172a783e886c",
+      "AttributeType": "Boolean",
+      "LogicalName": "msdyncrm_eventurlspecified",
+      "SchemaName": "msdyncrm_EventURLspecified",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "f3873c68-d4cf-4d33-bbe8-ab317554c3dd",
+      "AttributeType": "Virtual",
+      "LogicalName": "msdyncrm_eventurlspecifiedname",
+      "SchemaName": "msdyncrm_eventurlspecifiedName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "346198f6-d90c-4d87-9793-8f0fa8b07a81",
+      "AttributeType": "Lookup",
+      "LogicalName": "msdyncrm_marketingformid",
+      "SchemaName": "msdyncrm_marketingformid",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "850c16e3-52c1-4635-8786-4234ef4ab518",
+      "AttributeType": "String",
+      "LogicalName": "msdyncrm_marketingformidname",
+      "SchemaName": "msdyncrm_marketingformidName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "9a92d775-d4bc-465e-a072-5e18f99b9d04",
+      "AttributeType": "Integer",
+      "LogicalName": "msdyncrm_sessionscount",
+      "SchemaName": "msdyncrm_SessionsCount",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "0a4fd9c5-bf6e-4afd-8363-8d12821e447e",
+      "AttributeType": "DateTime",
+      "LogicalName": "msdyncrm_sessionscount_date",
+      "SchemaName": "msdyncrm_SessionsCount_Date",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "0daea2a0-dff3-43a4-b0bf-3ff6cc20c615",
+      "AttributeType": "Integer",
+      "LogicalName": "msdyncrm_sessionscount_state",
+      "SchemaName": "msdyncrm_SessionsCount_State",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "04203cda-e5d4-43c6-a5b7-27d770924385",
+      "AttributeType": "Boolean",
+      "LogicalName": "msdyncrm_usemarketingform",
+      "SchemaName": "msdyncrm_usemarketingform",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "3c861302-bd7f-4218-9dc9-87a22057b71d",
+      "AttributeType": "Virtual",
+      "LogicalName": "msdyncrm_usemarketingformname",
+      "SchemaName": "msdyncrm_usemarketingformName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "bee23ad6-f950-48b8-8aee-bab727c8d8b2",
+      "AttributeType": "String",
+      "LogicalName": "msdynmkt_bannerimageid",
+      "SchemaName": "msdynmkt_bannerimageid",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "2ff17c96-b14c-4be3-bd59-91d6da83ebbb",
+      "AttributeType": "DateTime",
+      "LogicalName": "msdynmkt_completiondate",
+      "SchemaName": "msdynmkt_completiondate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e07e0586-e374-4582-ae29-2dba288a4622",
+      "AttributeType": "String",
+      "LogicalName": "msdynmkt_linkedvirtualeventid",
+      "SchemaName": "msdynmkt_linkedvirtualeventid",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "5577bbf8-f6fa-4961-b07c-79b7ae4a73ef",
+      "AttributeType": "String",
+      "LogicalName": "msdynmkt_logoimageid",
+      "SchemaName": "msdynmkt_logoimageid",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "d8e91cac-16b9-4160-8eec-5b6c902d7745",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowanonymousregistrations",
+      "SchemaName": "msevtmgt_allowanonymousregistrations",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "2aa716b6-e351-4c04-83e9-fe7a403b37e0",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowanonymousregistrationsname",
+      "SchemaName": "msevtmgt_allowanonymousregistrationsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8d42be28-8cdc-4128-88ea-ed48cf1bfd12",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowattendeestounmute",
+      "SchemaName": "msevtmgt_allowattendeestounmute",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "fae642c6-2072-49a4-9168-d37c34c543ee",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowattendeestounmutename",
+      "SchemaName": "msevtmgt_allowattendeestounmuteName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "0e61a468-8c74-4830-b85a-10ae5c9f3139",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowcameraforattendees",
+      "SchemaName": "msevtmgt_allowcameraforattendees",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "3c639295-2f20-4dc1-b09d-88b465c2dcc0",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowcameraforattendeesname",
+      "SchemaName": "msevtmgt_allowcameraforattendeesName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8a176ead-80a6-48ff-b013-b6bd2e1a9573",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowcustomagenda",
+      "SchemaName": "msevtmgt_allowcustomagenda",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "20098ac3-5f69-4225-a4af-63204d5c4d55",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowcustomagendaname",
+      "SchemaName": "msevtmgt_allowcustomagendaName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "2bef947f-93ec-4fa8-bf00-696972cef444",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowexternalpresenters",
+      "SchemaName": "msevtmgt_allowexternalpresenters",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "75727b6d-1f6f-4715-8059-7d89d76769d4",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowexternalpresentersname",
+      "SchemaName": "msevtmgt_allowexternalpresentersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "b64702bf-7768-417b-bed2-f2bc04fc8d51",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_allowmeetingchat",
+      "SchemaName": "msevtmgt_allowmeetingchat",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "5302554b-f00e-4bba-ba06-c4de579f35f8",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowmeetingchatname",
+      "SchemaName": "msevtmgt_allowmeetingchatName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "deba13ab-b318-4c8a-8bc0-d63c1e46303c",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowpstnsserstobypasslobby",
+      "SchemaName": "msevtmgt_allowpstnsserstobypasslobby",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "132f4e75-a648-49a7-856c-a6d264fca691",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowpstnsserstobypasslobbyname",
+      "SchemaName": "msevtmgt_allowpstnsserstobypasslobbyName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "ce86a850-9504-44fc-9e25-b8f10e38bde5",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_allowteamsmeetingreactions",
+      "SchemaName": "msevtmgt_allowteamsmeetingreactions",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "6739012f-7f38-4444-b345-45a0d5d4641a",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_allowteamsmeetingreactionsname",
+      "SchemaName": "msevtmgt_allowteamsmeetingreactionsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "70ced00c-a908-4b79-b069-91587a3a7254",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_attendeeengagementreport",
+      "SchemaName": "msevtmgt_attendeeengagementreport",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "378ce748-c1d9-4b57-8c9a-762b9aebe58f",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_attendeeengagementreportname",
+      "SchemaName": "msevtmgt_attendeeengagementreportName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "7732a58d-22bf-4244-80ff-c889ad9759ca",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_attendeeurl",
+      "SchemaName": "msevtmgt_attendeeurl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "1abaee1e-5187-4918-9291-014e79e8afea",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_autoadmittedusers",
+      "SchemaName": "msevtmgt_autoadmittedusers",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "46457806-9724-40bd-8e7b-57cc3a183d0d",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_autoadmittedusersname",
+      "SchemaName": "msevtmgt_autoadmittedusersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "98d0bb42-9d2c-41c4-964c-790d05278a68",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_autorecordingenabled",
+      "SchemaName": "msevtmgt_autorecordingenabled",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "1f171c4e-c14f-49b1-9bb5-58628e426fdd",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_autorecordingenabledname",
+      "SchemaName": "msevtmgt_autorecordingenabledName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "4d25ecc6-500e-44d2-a4aa-77760553285b",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_autoregisterwaitlistitems",
+      "SchemaName": "msevtmgt_autoregisterwaitlistitems",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "86790c41-d921-4ed2-980d-e75e72e0adf4",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_autoregisterwaitlistitemsname",
+      "SchemaName": "msevtmgt_autoregisterwaitlistitemsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "6b1aca0f-62b3-4758-bf49-146919dad76d",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_baserecurrenteventid",
+      "SchemaName": "msevtmgt_baserecurrenteventid",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "a1e51090-fdf8-435f-92d4-3ea9953c11f4",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_bookedflightreservations",
+      "SchemaName": "msevtmgt_BookedFlightReservations",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "2d2d3657-6b5e-49ea-bd10-00aad5f5c0b0",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_bookedflightreservationsname",
+      "SchemaName": "msevtmgt_bookedflightreservationsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "f448e63c-3b5e-4821-b2d2-6eff18e7282f",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_bookrooms",
+      "SchemaName": "msevtmgt_BookRooms",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "34ded828-658f-4047-ba98-d0a264b095ab",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_bookroomsname",
+      "SchemaName": "msevtmgt_bookroomsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "6e5b4cbf-5ad9-435a-b97f-be2397e944da",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_budgetallocated",
+      "SchemaName": "msevtmgt_BudgetAllocated",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "fc21465f-75aa-4a38-bfab-f5bddcbd02b4",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_budgetallocated_base",
+      "SchemaName": "msevtmgt_budgetallocated_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "ba67b61d-55db-4d59-a6d2-cc856b9a04a5",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_building",
+      "SchemaName": "msevtmgt_building",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d067403d-17fd-43d7-8cf5-237970a57c77",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_buildingname",
+      "SchemaName": "msevtmgt_buildingName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "f5714a68-1804-44eb-810d-3bdee0ca6620",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_calendarcontent",
+      "SchemaName": "msevtmgt_calendarcontent",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "d6de513a-e86e-434a-aca0-3c86c0565b10",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_calendarcontent_plaintext",
+      "SchemaName": "msevtmgt_calendarcontent_plaintext",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "5a75b6e5-70de-47ed-acba-ade8331d2256",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_calendarevent",
+      "SchemaName": "msevtmgt_calendarevent",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "e748071b-dfcb-4fe7-9f2c-6e614ee521c5",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_cateringrequired",
+      "SchemaName": "msevtmgt_CateringRequired",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "5e92c71c-f062-4a9f-a3bd-c8b688973c6f",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_cateringrequiredname",
+      "SchemaName": "msevtmgt_cateringrequiredName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "a1ec1b7b-f04d-4dfe-b77e-50739af314d1",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_changemeetingoptions",
+      "SchemaName": "msevtmgt_changemeetingoptions",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "ffaf4cb5-4453-4c7d-8a68-e77a250b21f5",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_changemeetingoptionsname",
+      "SchemaName": "msevtmgt_changemeetingoptionsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "47b3e8fe-904a-4fb8-b820-3368e67a6aff",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_checkincount",
+      "SchemaName": "msevtmgt_CheckInCount",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "33a54fd0-4856-4010-adfa-c53e5a5ddfe8",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_confirmedhotelchoices",
+      "SchemaName": "msevtmgt_ConfirmedHotelChoices",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "97ee0ea0-ed7b-4865-a299-1b6307abfb4f",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_confirmedhotelchoicesname",
+      "SchemaName": "msevtmgt_confirmedhotelchoicesName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "b7faede6-54bb-4871-a35f-bdf222adaadf",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_countdownindays",
+      "SchemaName": "msevtmgt_CountdownInDays",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "9336a748-d83d-4a82-8479-5e50d2a9da7e",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_createleadsforeventregistrations",
+      "SchemaName": "msevtmgt_createleadsforeventregistrations",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "7c165a33-38d0-4c23-872b-466846339655",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_createleadsforeventregistrationsname",
+      "SchemaName": "msevtmgt_createleadsforeventregistrationsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "1f064ef3-6fc6-447d-b7de-eb4552b0831c",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_createmarketingcollateral",
+      "SchemaName": "msevtmgt_CreateMarketingCollateral",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "21b314c6-d1a6-4650-8a56-31fb3e5d6c7d",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_createmarketingcollateralname",
+      "SchemaName": "msevtmgt_createmarketingcollateralName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "28975fb6-2e3f-4ffd-a000-452b97dd737e",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_creationsource",
+      "SchemaName": "msevtmgt_creationsource",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "cc3e491b-58eb-4125-a333-f1a472c85c43",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_creationsourcename",
+      "SchemaName": "msevtmgt_creationsourceName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "dcd5a393-4b65-4224-9f38-b6fc7879daf6",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_customeventurl",
+      "SchemaName": "msevtmgt_customeventurl",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "bb4f106a-3a3d-43d0-8694-4b59958a6f31",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_customeventurlname",
+      "SchemaName": "msevtmgt_customeventurlName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "82936973-aaf4-48e4-b422-51980428bca7",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_definepackagesandpricing",
+      "SchemaName": "msevtmgt_DefinePackagesandPricing",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "44f170fe-59e7-4876-b518-675d60097b06",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_definepackagesandpricingname",
+      "SchemaName": "msevtmgt_definepackagesandpricingName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "53e6af74-3b43-4112-91c0-616f01425ef5",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_definesessions",
+      "SchemaName": "msevtmgt_DefineSessions",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "704f772c-2c57-40b5-a6d4-09d35daac2ad",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_definesessionsname",
+      "SchemaName": "msevtmgt_definesessionsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "c0837d04-5923-46ea-b271-62a3b15dbb96",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_defineteam",
+      "SchemaName": "msevtmgt_DefineTeam",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "205f3ffd-494d-4686-8736-d5cd856127b7",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_defineteamname",
+      "SchemaName": "msevtmgt_defineteamName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "c8cd2396-f853-4097-8a15-0470e5255474",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_description",
+      "SchemaName": "msevtmgt_Description",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "61ccbeae-e1c4-4dc1-bb9d-4653c07946a4",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_descriptorsyncstatus",
+      "SchemaName": "msevtmgt_descriptorsyncstatus",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "852b3c12-cdce-4aa9-aee8-91131c3f6354",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_descriptorsyncstatusname",
+      "SchemaName": "msevtmgt_descriptorsyncstatusName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "cc5fbd8e-3e41-469d-b92d-0a971aeda1dd",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_developmarketingplan",
+      "SchemaName": "msevtmgt_DevelopMarketingPlan",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "a6c7fb9a-fc6d-4019-8af3-5c0b13d6e64c",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_developmarketingplanname",
+      "SchemaName": "msevtmgt_developmarketingplanName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "ca7755d0-d2c7-418b-8f9c-f1d1b2fd2444",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_earlybirdcutoffdate",
+      "SchemaName": "msevtmgt_EarlyBirdCutOffDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "2f497b30-882c-4b72-826e-8669a69e3d74",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_embedregistrationform",
+      "SchemaName": "msevtmgt_embedregistrationform",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "5db7e9ac-426f-451b-90f1-4c4642b3dc28",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_embedregistrationformname",
+      "SchemaName": "msevtmgt_embedregistrationformName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "6c025745-aa7b-4e5a-b6d5-af3407d86292",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_enablecaptcha",
+      "SchemaName": "msevtmgt_enablecaptcha",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "8e1b353b-948b-4f74-9de2-dd9b7a6ddd33",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_enablecaptchaname",
+      "SchemaName": "msevtmgt_enablecaptchaName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "194c1828-6193-4565-98a2-ddd0ec7ea154",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_enablemultiattendeeregistration",
+      "SchemaName": "msevtmgt_Enablemultiattendeeregistration",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "3a327c97-0a2d-4a70-9bf9-f4017f79de1e",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_enablemultiattendeeregistrationname",
+      "SchemaName": "msevtmgt_enablemultiattendeeregistrationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "d3d59b04-5f98-4c2c-949f-9c6e55f3677f",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_enablepaymentgateway",
+      "SchemaName": "msevtmgt_enablepaymentgateway",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "a4201960-b770-4d60-a868-c8ae53e7d26a",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_enablepaymentgatewayname",
+      "SchemaName": "msevtmgt_enablepaymentgatewayName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "62b7b897-6486-4b83-8708-5ed8d35fb138",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_entryexitannouncementsenabled",
+      "SchemaName": "msevtmgt_entryexitannouncementsenabled",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "27d262ab-c981-496e-ba76-3224bf25754c",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_entryexitannouncementsenabledname",
+      "SchemaName": "msevtmgt_entryexitannouncementsenabledName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "eb0faf58-7e2e-4cd6-a973-8e4374f53ecf",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventcancellationurl",
+      "SchemaName": "msevtmgt_eventcancellationurl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "c989fc40-b52f-4bcf-b0f5-10de7b7dec36",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_eventdebriefing",
+      "SchemaName": "msevtmgt_EventDebriefing",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "eb35679e-955d-4f48-aa42-856161d69522",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_eventdebriefingname",
+      "SchemaName": "msevtmgt_eventdebriefingName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "0fafad53-fe91-4381-ab14-37539df95c3d",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_eventenddate",
+      "SchemaName": "msevtmgt_EventEndDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "a91ec866-504b-45cb-9ea9-74d7b7c2ac9a",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_eventformat",
+      "SchemaName": "msevtmgt_EventFormat",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "86a39104-d43a-4685-95a1-8248c8e10bf4",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_eventformatname",
+      "SchemaName": "msevtmgt_eventformatName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "MetadataId": "81f84380-4b56-4427-8346-472c823c48a2",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "msevtmgt_eventid",
+      "SchemaName": "msevtmgt_EventId",
+      "AttributeTypeName": {
+        "Value": "UniqueidentifierType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "59084846-f84c-402e-a05f-231e4ff7c2cb",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_eventimage",
+      "SchemaName": "msevtmgt_eventimage",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "6ed17fa7-3fd2-4c2a-b70f-75cdf384c8ea",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventimagename",
+      "SchemaName": "msevtmgt_eventimageName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "702dde34-e2d2-4d9a-a246-555ef6e4c1bd",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventimageurl",
+      "SchemaName": "msevtmgt_eventimageurl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "4decbfb2-560d-4219-a4a3-c6daa145f0e9",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_eventpowerpageswebsite",
+      "SchemaName": "msevtmgt_eventpowerpageswebsite",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "ab1b6f03-be63-4b0c-b273-2f64668f61e5",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventpowerpageswebsitename",
+      "SchemaName": "msevtmgt_eventpowerpageswebsiteName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "7698beae-7cc4-4ee9-8d88-02a26ea1cd36",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_eventstartdate",
+      "SchemaName": "msevtmgt_EventStartDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "b460c989-7e66-4fd5-a9c5-d80cf96b82e9",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_eventteammember",
+      "SchemaName": "msevtmgt_eventteammember",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "65d711b3-1ba2-4a8b-a655-856baf452302",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventteammembername",
+      "SchemaName": "msevtmgt_EventTeamMemberName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "fef5585f-2912-487d-9f4f-86b397abd668",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_eventtimezone",
+      "SchemaName": "msevtmgt_EventTimeZone",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "3bf9e84b-d885-4471-937c-320bfd16374a",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventtimezonename",
+      "SchemaName": "msevtmgt_EventTimeZoneName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "488e62e9-5167-4673-b454-c24ee06f1cdf",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_eventtype",
+      "SchemaName": "msevtmgt_EventType",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "8e2e4b90-6e6f-4e2b-ba29-fc925ab978a0",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_eventtypename",
+      "SchemaName": "msevtmgt_eventtypeName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "2fe1578a-496b-4221-aec7-03028f5702f5",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_eventutcenddate",
+      "SchemaName": "msevtmgt_EventUTCEndDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "ef7a4e99-f08b-4d10-9a9f-84ec661ac95b",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_eventutcstartdate",
+      "SchemaName": "msevtmgt_EventUTCStartDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "b83cc06e-589b-4e6b-8dfb-aa79da4cfc8c",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_eventvenuecost",
+      "SchemaName": "msevtmgt_EventVenueCost",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "1cda7a6e-d266-486b-a2dd-32917d55a5d3",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_eventvenuecost_base",
+      "SchemaName": "msevtmgt_eventvenuecost_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "50eae380-5eba-4a5f-97cd-cb8f7941e8cd",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_eventwebapplication",
+      "SchemaName": "msevtmgt_eventwebapplication",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "fff8ff73-08ab-4c52-b515-3d4f37c269e0",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_eventwebapplicationname",
+      "SchemaName": "msevtmgt_eventwebapplicationName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "d5080da2-2a1b-434a-828f-9058cb82934b",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_expectedoutcome",
+      "SchemaName": "msevtmgt_ExpectedOutcome",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "087a00c3-b55f-4f86-ab4c-a296b0a65269",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_followuponleads",
+      "SchemaName": "msevtmgt_FollowUpOnLeads",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "9a218050-e320-4e71-856f-aa2ac5bc7475",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_followuponleadsname",
+      "SchemaName": "msevtmgt_followuponleadsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e86e0a6a-e726-4bb9-a434-b8235cda1de8",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_formpagejavascriptcode",
+      "SchemaName": "msevtmgt_formpagejavascriptcode",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "5344c3fd-446f-48a2-8363-250a6ccbfef2",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_gridoperationinprogress",
+      "SchemaName": "msevtmgt_gridOperationInProgress",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "b0420662-173a-4e2f-971f-c698d93a9f78",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_gridoperationinprogressname",
+      "SchemaName": "msevtmgt_gridoperationinprogressName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "aad23bfc-1538-4231-ad63-13d5a261f03b",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_guestlogistics",
+      "SchemaName": "msevtmgt_GuestLogistics",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "1424d542-e37c-433a-b4e2-f945bdf36307",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_guestlogisticsname",
+      "SchemaName": "msevtmgt_guestlogisticsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "a2de7fc9-e810-4539-af2f-3a261aa72e9d",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_identifyspeakers",
+      "SchemaName": "msevtmgt_IdentifySpeakers",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "624920c6-fd19-4cc6-8c04-d6fd81fb3f0d",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_identifyspeakersname",
+      "SchemaName": "msevtmgt_identifyspeakersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "b694334c-1032-4971-908f-0a1caa02836f",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_identifysponsors",
+      "SchemaName": "msevtmgt_IdentifySponsors",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "6a0c7307-7eab-4282-b5d4-b418738b0464",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_identifysponsorsname",
+      "SchemaName": "msevtmgt_identifysponsorsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "4a8f4808-836b-433a-97b1-469fad1a5050",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_isoutofsync",
+      "SchemaName": "msevtmgt_isoutofsync",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "36aab70b-37e3-46df-a045-ba8a168dff02",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_isoutofsyncname",
+      "SchemaName": "msevtmgt_isoutofsyncName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "95b6bb51-c946-48dc-a113-59d44a7e5ba4",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_isrecurringevent",
+      "SchemaName": "msevtmgt_IsRecurringEvent",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "ef1a676f-e5c6-4ed7-b094-a0f7b8eade09",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_isrecurringeventname",
+      "SchemaName": "msevtmgt_isrecurringeventName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "3870a68c-8ee8-4f34-ad4f-608e2a3dae07",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_issessionregistrationrequired",
+      "SchemaName": "msevtmgt_issessionregistrationrequired",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "ae44ae7d-294b-4a22-a0f8-8019ed981cdb",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_issessionregistrationrequiredname",
+      "SchemaName": "msevtmgt_issessionregistrationrequiredName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "4b17555d-636a-471c-b4bb-297858dcce38",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_issinglesessionregistration",
+      "SchemaName": "msevtmgt_issinglesessionregistration",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "d4fae0ba-7179-49ad-9856-0412c1471ddb",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_issinglesessionregistrationname",
+      "SchemaName": "msevtmgt_issinglesessionregistrationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "d8a11885-a3ef-4c63-9715-fef9799fdf55",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_istemplate",
+      "SchemaName": "msevtmgt_istemplate",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "32feeed5-a105-4e96-8dd1-8e8d0b1446fa",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_istemplatename",
+      "SchemaName": "msevtmgt_istemplateName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "cedf0031-3ceb-4e53-8c02-9b5a606ad193",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_language",
+      "SchemaName": "msevtmgt_Language",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "5edb182c-8888-455e-a614-d82ba308f2a6",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_languagename",
+      "SchemaName": "msevtmgt_languageName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "fbb3cad2-3b06-4071-8d42-5fd7f2566254",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_lastteamssyncdate",
+      "SchemaName": "msevtmgt_lastteamssyncdate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "1b4ce62e-d84a-4df2-b538-d0db7721d87d",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_layout",
+      "SchemaName": "msevtmgt_layout",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "801607cc-e6ac-4821-89d1-a4bf4ccebb84",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_layoutname",
+      "SchemaName": "msevtmgt_layoutName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "4c51e753-a854-4d6f-97cd-7241c849bd5e",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_makepaymentsdue",
+      "SchemaName": "msevtmgt_MakePaymentsDue",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "c05108fe-64a3-49d6-ac02-1df720061235",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_makepaymentsduename",
+      "SchemaName": "msevtmgt_makepaymentsdueName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "121f0dc0-772a-4fc9-949a-9cb4b46eac01",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_manageregistrationcount",
+      "SchemaName": "msevtmgt_ManageRegistrationCount",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "c50ad999-3e77-495a-95c8-c8a8e64f9e1e",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_manageregistrationcountname",
+      "SchemaName": "msevtmgt_manageregistrationcountName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "b4e3653a-e8c2-496c-a44d-b608f10726f5",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_marketingformid",
+      "SchemaName": "msevtmgt_marketingformid",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "3adbfbf0-74f0-4f10-8582-2766e3b834f0",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_marketingformidname",
+      "SchemaName": "msevtmgt_marketingformidName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "5482a809-bc55-4100-9052-5ab618c70ed8",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_maximumeventcapacity",
+      "SchemaName": "msevtmgt_MaximumEventCapacity",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "445d098a-69c8-4277-91df-2e39d0189267",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_maxnumberofregistrations",
+      "SchemaName": "msevtmgt_MaxNumberOfRegistrations",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "6e3ef51e-5c27-4688-bb6a-33ab98b62be4",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_miscellaneouscosts",
+      "SchemaName": "msevtmgt_MiscellaneousCosts",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "a234da4e-8f5a-4a85-9663-b5f06a3b1ba4",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_miscellaneouscosts_base",
+      "SchemaName": "msevtmgt_miscellaneouscosts_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d73a0c22-a16f-43be-8f60-c9aa526b26fd",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_name",
+      "SchemaName": "msevtmgt_Name",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "d2e2f435-b36d-4a6c-b7e1-fbaf9f920e19",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_notifyauthoritiesofevent",
+      "SchemaName": "msevtmgt_NotifyAuthoritiesOfEvent",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "009781de-9ed1-489e-b931-ed5e20b9e7a6",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_notifyauthoritiesofeventname",
+      "SchemaName": "msevtmgt_notifyauthoritiesofeventName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "6f6bbd43-7406-4cda-a0da-b8ef21b58ddc",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_numberofinvitations",
+      "SchemaName": "msevtmgt_numberofinvitations",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "83bc26ec-592e-4f0f-945f-de29b63fc0ba",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_paymentprovider",
+      "SchemaName": "msevtmgt_paymentprovider",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e69707d1-9c27-463d-b5cc-364dccc7aa8a",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_paymentprovidername",
+      "SchemaName": "msevtmgt_paymentproviderName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "ff1fb1b6-76bf-4809-b9ec-8f7c66ffda0b",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_planregistration",
+      "SchemaName": "msevtmgt_PlanRegistration",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "7661853b-2cda-4a6e-beb4-6b1a0d23cc6a",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_planregistrationname",
+      "SchemaName": "msevtmgt_planregistrationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "6d7c5ebb-fa53-4d05-bb2f-0c9835e05f96",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_portalspecificeventenddate",
+      "SchemaName": "msevtmgt_portalspecificeventenddate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "7f63164d-0721-4f36-bc40-a49e10aa4e2e",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_portalspecificeventstartdate",
+      "SchemaName": "msevtmgt_portalspecificeventstartdate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "334d3b46-cac5-49aa-bacc-8c29cf195105",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_presentationmanagerurl",
+      "SchemaName": "msevtmgt_PresentationManagerUrl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "df8f60b1-2be2-4dd3-99a4-dee89ffc68ca",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_previousnumberoffreeslots",
+      "SchemaName": "msevtmgt_previousnumberoffreeslots",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "e8fd9538-5a9e-46e1-8c9c-a3cb6b8f2df2",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_primarygoal",
+      "SchemaName": "msevtmgt_PrimaryGoal",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "ef64be64-7fa1-4ebd-8fcf-e051ddd06d2a",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_primarygoalname",
+      "SchemaName": "msevtmgt_primarygoalName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "c93c81c9-7fc5-457a-ab70-d54c4b7a5c8f",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_primaryvenue",
+      "SchemaName": "msevtmgt_PrimaryVenue",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "8ab5c638-e13d-41cc-a10d-6906bd08f72c",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_primaryvenuename",
+      "SchemaName": "msevtmgt_PrimaryVenueName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "85af43ce-9a2e-42ef-abd8-eea0b346affa",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_producer",
+      "SchemaName": "msevtmgt_producer",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "449905eb-27f1-419b-bfc5-d13ac141a0d5",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_producername",
+      "SchemaName": "msevtmgt_producerName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "15201d84-8ec1-4164-8167-f2ae0cc71ff4",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_publiceventurl",
+      "SchemaName": "msevtmgt_publiceventurl",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "28196f4b-481c-43f8-9932-13fb1d5b71ae",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_publishstatus",
+      "SchemaName": "msevtmgt_PublishStatus",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "0320e249-94c8-4a16-977e-0255680fc5a6",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_publishstatusname",
+      "SchemaName": "msevtmgt_publishstatusName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "0f7fa5a2-e4ee-42ec-9587-b749c8cb4bb9",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_qna",
+      "SchemaName": "msevtmgt_qna",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "37daa5fd-a83c-418e-bf99-a951a9f70883",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_qnaname",
+      "SchemaName": "msevtmgt_qnaName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "708eb4df-9b09-4ad0-b586-7b65b440f0b8",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_readableeventid",
+      "SchemaName": "msevtmgt_readableeventid",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "44cfe9ef-c2ec-45b1-8d47-eb30df6fdbb2",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_recordingforattendees",
+      "SchemaName": "msevtmgt_recordingforattendees",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "dd8de19d-1fae-4a05-b882-469daedd4de9",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_recordingforattendeesname",
+      "SchemaName": "msevtmgt_recordingforattendeesName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8014ac0f-ea70-4b81-82cd-9d76ddba2992",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_recordingforproducersandspeakers",
+      "SchemaName": "msevtmgt_recordingforproducersandspeakers",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "83b9e3cc-2575-4173-948c-64cc6bed4193",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_recordingforproducersandspeakersname",
+      "SchemaName": "msevtmgt_recordingforproducersandspeakersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "0c49f4bf-3bab-42b2-a5b5-033ec3a71386",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_recoveryitems",
+      "SchemaName": "msevtmgt_recoveryitems",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "7e23e84e-4ff0-4308-8e2d-494635b191cd",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_recurrencepattern",
+      "SchemaName": "msevtmgt_RecurrencePattern",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "ede89b71-a735-40f9-8df1-afe6c5ea4204",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_recurrenteventstatus",
+      "SchemaName": "msevtmgt_recurrenteventstatus",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "ff0c95d7-a771-4f9a-b6cf-bdb40ad83d0c",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_registrationcancelationform",
+      "SchemaName": "msevtmgt_registrationcancelationform",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "229a3d75-82e9-49b9-b896-83b0d22b8dc0",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_registrationcancelationformname",
+      "SchemaName": "msevtmgt_registrationcancelationformName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "f68117e5-6e17-42a5-96dc-2d347266e199",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_registrationcount",
+      "SchemaName": "msevtmgt_RegistrationCount",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "def1db1b-9311-4c93-8e26-e43888581c32",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_registrationcounterlock",
+      "SchemaName": "msevtmgt_registrationcounterlock",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "7767921f-7dc4-49a6-8a05-0e37a4ab0e51",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_registrationenddate",
+      "SchemaName": "msevtmgt_RegistrationEndDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "70d516f7-f4a2-4e58-98d8-135c3cc53bba",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_registrationsgridid",
+      "SchemaName": "msevtmgt_RegistrationsGridId",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "318d5d79-cb3a-4e1f-891d-23b9bd9dcb3d",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_registrationstarget",
+      "SchemaName": "msevtmgt_RegistrationsTarget",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "74a9c625-e060-4844-abf4-84e50dc7daa0",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_registrationstartdate",
+      "SchemaName": "msevtmgt_RegistrationStartDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "b0d3b06a-7410-4cbf-b221-af69b9d15054",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_registrationutcenddate",
+      "SchemaName": "msevtmgt_RegistrationUTCEndDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e4a66fe7-a81b-407d-8ef4-154ab65d1494",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_registrationutcstartdate",
+      "SchemaName": "msevtmgt_RegistrationUTCStartDate",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "29519eeb-f395-4911-8494-740ed38e3db9",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_requestsponsorship",
+      "SchemaName": "msevtmgt_RequestSponsorship",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "42cc7ae9-4526-437c-8d8f-e34328757cf6",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_requestsponsorshipname",
+      "SchemaName": "msevtmgt_requestsponsorshipName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "2d213cc8-46ef-4d5d-9c39-ab7646182ea5",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_revenuefromsponsorship",
+      "SchemaName": "msevtmgt_RevenueFromSponsorship",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "c54126cc-dacf-4f61-b78b-c0aad7e79cf9",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_revenuefromsponsorship_base",
+      "SchemaName": "msevtmgt_revenuefromsponsorship_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "08f753d0-ae73-4db2-9035-10dc217d51d6",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_room",
+      "SchemaName": "msevtmgt_room",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "56c8e239-b040-4ade-9f37-86b2c0e6fbca",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_roomname",
+      "SchemaName": "msevtmgt_roomName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "be9ac492-f13c-45ca-ad42-4dcb334f8840",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_scheduleairportpickups",
+      "SchemaName": "msevtmgt_ScheduleAirportPickups",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "f08660cf-7822-457f-a031-a8457f3d096b",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_scheduleairportpickupsname",
+      "SchemaName": "msevtmgt_scheduleairportpickupsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "1e107c6c-b690-4308-9e3d-b8cb7b026cc8",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_schedulesessions",
+      "SchemaName": "msevtmgt_ScheduleSessions",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "2cc28be4-d81b-4e6a-9085-2a30094f0ad5",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_schedulesessionsname",
+      "SchemaName": "msevtmgt_schedulesessionsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "af0f3949-4a6d-46e0-8da5-9f9ab7d756fe",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_selectspeakers",
+      "SchemaName": "msevtmgt_SelectSpeakers",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "c341e727-e4e1-4246-9e58-ec724c9cefd5",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_selectspeakersname",
+      "SchemaName": "msevtmgt_selectspeakersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "8fc20eeb-1813-46f5-861e-f8cf50680cca",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_selectvendors",
+      "SchemaName": "msevtmgt_SelectVendors",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "159df536-9b78-4687-aa65-883c87680d14",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_selectvendorsname",
+      "SchemaName": "msevtmgt_selectvendorsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "3b5acf77-6bb1-446a-81df-1954ddbae2e8",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_sendeventinvitation",
+      "SchemaName": "msevtmgt_SendEventInvitation",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "4786221c-94ab-416c-89ec-42e98e32949e",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_sendeventinvitationname",
+      "SchemaName": "msevtmgt_sendeventinvitationName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "90c152ad-f783-404a-b509-f6942b0371ab",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_sendmarketingmaterial",
+      "SchemaName": "msevtmgt_SendMarketingMaterial",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "e6c1154a-fa6a-4665-b292-bc77d526ded4",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_sendmarketingmaterialname",
+      "SchemaName": "msevtmgt_sendmarketingmaterialName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "864b5b70-4071-468f-bcab-cdbf4ae0c3f5",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_sendpreeventreminders",
+      "SchemaName": "msevtmgt_SendPreEventReminders",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "0e30d3cf-44df-4b95-b621-67825a4bef3b",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_sendpreeventremindersname",
+      "SchemaName": "msevtmgt_sendpreeventremindersName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "3d4d8c1a-a814-4b78-8b9d-6fdcfff620a1",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_sendthankyouemails",
+      "SchemaName": "msevtmgt_SendThankYouEmails",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "77d34139-8f9b-45a0-bd4d-8670a2b6b47e",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_sendthankyouemailsname",
+      "SchemaName": "msevtmgt_sendthankyouemailsName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "7c2f696e-9336-4b4a-bad7-43e21b099ae6",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_setregistrationperiod",
+      "SchemaName": "msevtmgt_SetRegistrationPeriod",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "2bcd4658-9c57-47da-a4cb-b3f59b532342",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_setregistrationperiodname",
+      "SchemaName": "msevtmgt_setregistrationperiodName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "ab1db7c9-10e8-4435-8ef5-d2f7bffc9375",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_setregistrationsenddate",
+      "SchemaName": "msevtmgt_setregistrationsenddate",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "1598d15a-4e9a-4ebb-a51a-de05babbcabe",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_setregistrationsenddatename",
+      "SchemaName": "msevtmgt_setregistrationsenddateName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "cc04865b-93f6-4495-901d-905f4320e97e",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_showautomaticregistrationcheckbox",
+      "SchemaName": "msevtmgt_showautomaticregistrationcheckbox",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "e12584e7-0f5d-42b1-aa48-cac16d5e3c51",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_showautomaticregistrationcheckboxname",
+      "SchemaName": "msevtmgt_showautomaticregistrationcheckboxName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b78a3243-41c2-45c7-9cc2-89549068e65b",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_showwaitlist",
+      "SchemaName": "msevtmgt_showwaitlist",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "923e7389-04ef-43a9-84ab-bfe37f0b7924",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_showwaitlistname",
+      "SchemaName": "msevtmgt_showwaitlistName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "8db02992-ff45-41d6-9968-fd43b6e359f1",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_sourcesystem",
+      "SchemaName": "msevtmgt_sourcesystem",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "4ce50078-76a9-42bc-9be0-3d75955e9676",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_sourcesystemname",
+      "SchemaName": "msevtmgt_sourcesystemName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e82d8f8f-c214-4878-b31a-a72ae7168ec7",
+      "AttributeType": "DateTime",
+      "LogicalName": "msevtmgt_stopwebsiteregistrationson",
+      "SchemaName": "msevtmgt_Stopwebsiteregistrationson",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "d4ef7f20-3b28-41d7-870c-26a686702122",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_streamingenabled",
+      "SchemaName": "msevtmgt_streamingenabled",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "a8ad9813-0086-4496-a1f3-bf559cc28a4f",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_streamingenabledname",
+      "SchemaName": "msevtmgt_streamingenabledName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "62824deb-b6ed-486b-af51-842350fd5197",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_streamingprovider",
+      "SchemaName": "msevtmgt_streamingprovider",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "5e99583e-f4c6-4852-8949-4d8d8d136dff",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_streamingprovidername",
+      "SchemaName": "msevtmgt_streamingproviderName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "fdb7ba8a-ac16-4555-a271-231131d09cd7",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_streamowner",
+      "SchemaName": "msevtmgt_streamowner",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d1bfc15c-3881-44e1-9c6c-c7386ffba0da",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_streamownername",
+      "SchemaName": "msevtmgt_streamownerName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "1f7db658-f0e7-4072-aa19-6e024bc84f8d",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_streamowneryominame",
+      "SchemaName": "msevtmgt_streamownerYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "8af295a1-4f63-403b-89f9-ae9163b490e2",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_targetrevenue",
+      "SchemaName": "msevtmgt_TargetRevenue",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "47bc86c5-eae6-41f1-af77-7f9ba7b62232",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_targetrevenue_base",
+      "SchemaName": "msevtmgt_targetrevenue_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "a9dedf78-cb9e-4250-adfe-97d9615aa69d",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_teamdebriefing",
+      "SchemaName": "msevtmgt_TeamDebriefing",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "49e1c4f7-bc30-4b67-9017-80cdfd1d6561",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_teamdebriefingname",
+      "SchemaName": "msevtmgt_teamdebriefingName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "0f3bd453-d6c8-4e5a-a6f0-9ec97b73c3ee",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_teamsevent",
+      "SchemaName": "msevtmgt_teamsevent",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "a7e9973b-4bc9-4f6f-b00f-2a7cf76f2c1e",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_teamsinvitationhtml",
+      "SchemaName": "msevtmgt_teamsinvitationhtml",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "439c562b-1b0c-49cf-b719-282c94df8894",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalcostofeventsactivities",
+      "SchemaName": "msevtmgt_TotalCostOfEventsActivities",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "8b0fed3b-a5a4-4ad5-8746-423338f23967",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalcostofeventsactivities_base",
+      "SchemaName": "msevtmgt_totalcostofeventsactivities_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "8dfaeeed-ab6c-4aab-9e13-bdb4f5702321",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalcostofexternalmembers",
+      "SchemaName": "msevtmgt_TotalCostOfExternalMembers",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "435a5a36-7a38-45d9-b30a-1b5626d308d7",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalcostofexternalmembers_base",
+      "SchemaName": "msevtmgt_totalcostofexternalmembers_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "009dfaea-447f-4f24-af3c-dcdca9573528",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalregistrationfee",
+      "SchemaName": "msevtmgt_TotalRegistrationFee",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "9f47589b-534c-46ab-aec2-2fb334bebe7c",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalregistrationfee_base",
+      "SchemaName": "msevtmgt_totalregistrationfee_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "5a8ca21e-9c4a-4676-83ff-ae7e52b2927b",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalrevenuefromtheevent",
+      "SchemaName": "msevtmgt_TotalRevenueFromTheEvent",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "c35073a5-8207-4ce0-85ea-45f4b589a539",
+      "AttributeType": "Money",
+      "LogicalName": "msevtmgt_totalrevenuefromtheevent_base",
+      "SchemaName": "msevtmgt_totalrevenuefromtheevent_Base",
+      "AttributeTypeName": {
+        "Value": "MoneyType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "24382082-e040-47c8-b8d5-cf34897e00c1",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_transactioncurrencyid",
+      "SchemaName": "msevtmgt_TransactionCurrencyId",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "1e681891-7ed5-4343-8783-f29363413273",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_transactioncurrencyidname",
+      "SchemaName": "msevtmgt_TransactionCurrencyIdName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "6c172711-53da-4716-b06f-4c57f15761f1",
+      "AttributeType": "Integer",
+      "LogicalName": "msevtmgt_waitliststartingpoint",
+      "SchemaName": "msevtmgt_WaitlistStartingPoint",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "ce21e546-86a8-4a78-8348-22ff45a86a4e",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_waitlistthisevent",
+      "SchemaName": "msevtmgt_WaitlistthisEvent",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "c8e3c373-8af6-49d3-81e8-6752b1f702cc",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_waitlistthiseventname",
+      "SchemaName": "msevtmgt_waitlistthiseventName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "7e966e3d-c621-471c-a371-d95445503de3",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_webinarconfigurationid",
+      "SchemaName": "msevtmgt_WebinarConfigurationId",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "87ff9cdd-0766-4172-81c3-55a901f7a52a",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinarconfigurationidname",
+      "SchemaName": "msevtmgt_WebinarConfigurationIdName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "958e27a2-efd3-4980-ae88-d8c4765367d0",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinarid",
+      "SchemaName": "msevtmgt_WebinarID",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "df113387-807f-413d-832b-ac2a0788dd90",
+      "AttributeType": "Boolean",
+      "LogicalName": "msevtmgt_webinarnotificationseen",
+      "SchemaName": "msevtmgt_webinarnotificationseen",
+      "AttributeTypeName": {
+        "Value": "BooleanType"
+      }
+    },
+    {
+      "MetadataId": "ba6b00e8-61c1-4f39-afc4-17bdda9d40cd",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_webinarnotificationseenname",
+      "SchemaName": "msevtmgt_webinarnotificationseenName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f1ff9a29-7951-4a91-a330-9bbc2e2455f3",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinaroperation",
+      "SchemaName": "msevtmgt_webinaroperation",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "26c2341f-173e-4929-baff-fdecbdccbd28",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinarstatus",
+      "SchemaName": "msevtmgt_webinarstatus",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "c4b4e49b-832f-42c2-97c0-ca9ca23df5c8",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_webinarstatusreason",
+      "SchemaName": "msevtmgt_webinarstatusreason",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "5254fa43-5439-40f4-b141-31c75d499722",
+      "AttributeType": "Lookup",
+      "LogicalName": "msevtmgt_webinartype",
+      "SchemaName": "msevtmgt_WebinarType",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f9ced9b8-3962-4c3a-a0e8-ecfde13ef9ab",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinartypename",
+      "SchemaName": "msevtmgt_WebinarTypeName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "bb0e9b9d-b261-4835-8beb-0e9b8d802219",
+      "AttributeType": "String",
+      "LogicalName": "msevtmgt_webinarurl",
+      "SchemaName": "msevtmgt_webinarURL",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "1969a94e-db97-48a4-b594-8548b10709aa",
+      "AttributeType": "Memo",
+      "LogicalName": "msevtmgt_websitemessage",
+      "SchemaName": "msevtmgt_Websitemessage",
+      "AttributeTypeName": {
+        "Value": "MemoType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "9daa8d18-c098-4142-b5dc-1bc9c363742d",
+      "AttributeType": "Picklist",
+      "LogicalName": "msevtmgt_websitepreference",
+      "SchemaName": "msevtmgt_websitepreference",
+      "AttributeTypeName": {
+        "Value": "PicklistType"
+      }
+    },
+    {
+      "MetadataId": "7abf82cb-7b62-4740-8344-ab4b68f0f5c7",
+      "AttributeType": "Virtual",
+      "LogicalName": "msevtmgt_websitepreferencename",
+      "SchemaName": "msevtmgt_websitepreferenceName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "a3d68781-a2e3-45d2-826c-226a0d794804",
+      "AttributeType": "DateTime",
+      "LogicalName": "overriddencreatedon",
+      "SchemaName": "OverriddenCreatedOn",
+      "AttributeTypeName": {
+        "Value": "DateTimeType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a5cfe1eb-9b19-409a-b3ea-13f0b0759639",
+      "AttributeType": "Owner",
+      "LogicalName": "ownerid",
+      "SchemaName": "OwnerId",
+      "AttributeTypeName": {
+        "Value": "OwnerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "070374e0-2b50-4f01-bee3-579bd4d8c6f9",
+      "AttributeType": "String",
+      "LogicalName": "owneridname",
+      "SchemaName": "OwnerIdName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.EntityNameAttributeMetadata",
+      "MetadataId": "c18b6652-5805-459a-a09d-6514c2668870",
+      "AttributeType": "EntityName",
+      "LogicalName": "owneridtype",
+      "SchemaName": "OwnerIdType",
+      "AttributeTypeName": {
+        "Value": "EntityNameType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "cbf4b0cf-50af-ec11-9841-000d3ad8e324",
+      "AttributeType": "String",
+      "LogicalName": "owneridyominame",
+      "SchemaName": "OwnerIdYomiName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "5139f934-92fa-4f0c-8746-7bffe9c3918a",
+      "AttributeType": "Lookup",
+      "LogicalName": "owningbusinessunit",
+      "SchemaName": "OwningBusinessUnit",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "438a4e16-d0dc-4801-ae34-78f65a795100",
+      "AttributeType": "String",
+      "LogicalName": "owningbusinessunitname",
+      "SchemaName": "OwningBusinessUnitName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "190fb170-42e3-43df-82e9-6760bac0dc21",
+      "AttributeType": "Lookup",
+      "LogicalName": "owningteam",
+      "SchemaName": "OwningTeam",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "3014a00b-b3ea-46bc-83de-8521776cf985",
+      "AttributeType": "Lookup",
+      "LogicalName": "owninguser",
+      "SchemaName": "OwningUser",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "MetadataId": "bcc33fd0-5701-4ce8-a169-391089ba5edb",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "processid",
+      "SchemaName": "processid",
+      "AttributeTypeName": {
+        "Value": "UniqueidentifierType"
+      }
+    },
+    {
+      "MetadataId": "f665a7e1-855a-45b0-9359-ba5315f2d987",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "stageid",
+      "SchemaName": "stageid",
+      "AttributeTypeName": {
+        "Value": "UniqueidentifierType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StateAttributeMetadata",
+      "MetadataId": "eb218f36-614f-4681-9532-6b0b7bc3a5a4",
+      "AttributeType": "State",
+      "LogicalName": "statecode",
+      "SchemaName": "statecode",
+      "AttributeTypeName": {
+        "Value": "StateType"
+      }
+    },
+    {
+      "MetadataId": "542efcf2-38c8-403e-9d1b-f93eada524d9",
+      "AttributeType": "Virtual",
+      "LogicalName": "statecodename",
+      "SchemaName": "statecodeName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StatusAttributeMetadata",
+      "MetadataId": "31d571ce-35af-4d05-b273-7877f8b4d08a",
+      "AttributeType": "Status",
+      "LogicalName": "statuscode",
+      "SchemaName": "statuscode",
+      "AttributeTypeName": {
+        "Value": "StatusType"
+      }
+    },
+    {
+      "MetadataId": "c70d5fb9-ae6d-4ab8-8978-e6af8570c087",
+      "AttributeType": "Virtual",
+      "LogicalName": "statuscodename",
+      "SchemaName": "statuscodeName",
+      "AttributeTypeName": {
+        "Value": "VirtualType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "beeaa458-463b-4971-bb7f-840679c71242",
+      "AttributeType": "Integer",
+      "LogicalName": "timezoneruleversionnumber",
+      "SchemaName": "TimeZoneRuleVersionNumber",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "4c1adee1-e7df-4548-b4c3-a5a6d339d032",
+      "AttributeType": "Lookup",
+      "LogicalName": "transactioncurrencyid",
+      "SchemaName": "TransactionCurrencyId",
+      "AttributeTypeName": {
+        "Value": "LookupType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e8cdc841-f9a8-4085-a562-0d227469ffea",
+      "AttributeType": "String",
+      "LogicalName": "transactioncurrencyidname",
+      "SchemaName": "TransactionCurrencyIdName",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "6a00d131-0dd5-4353-9c1f-267bc024f891",
+      "AttributeType": "String",
+      "LogicalName": "traversedpath",
+      "SchemaName": "traversedpath",
+      "AttributeTypeName": {
+        "Value": "StringType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "f0193bdf-ef06-41b2-a185-9b0bf48cde26",
+      "AttributeType": "Integer",
+      "LogicalName": "utcconversiontimezonecode",
+      "SchemaName": "UTCConversionTimeZoneCode",
+      "AttributeTypeName": {
+        "Value": "IntegerType"
+      }
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BigIntAttributeMetadata",
+      "MetadataId": "3d0d560f-a78f-45fe-8a29-c153722af51e",
+      "AttributeType": "BigInt",
+      "LogicalName": "versionnumber",
+      "SchemaName": "VersionNumber",
+      "AttributeTypeName": {
+        "Value": "BigIntType"
+      }
+    }
+  ]
+}
